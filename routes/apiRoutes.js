@@ -34,8 +34,8 @@ module.exports = function(app){
             }
         });
 
-        // returns array as JSON format.
-        res.json(notesArray);
+        // returns new note in JSON format.
+        res.json(req.body);
     });
 
     // DELETE Method to delete note with specified ID
