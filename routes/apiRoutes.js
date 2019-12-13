@@ -13,7 +13,7 @@ module.exports = function(app){
     app.post("/api/notes", function(req, res){
 
         // Reads db.json
-        let rawdata = fs.readFileSync("db/db.json");
+        let rawdata = fs.readFileSync("./db/db.json");
 
         // converts the raw hex data to JSON Array
         let notesArray = JSON.parse(rawdata);
@@ -42,7 +42,7 @@ module.exports = function(app){
     app.delete("/api/notes/:id", function(req, res){
 
         // Reads db.json
-        let rawdata = fs.readFileSync("db/db.json");
+        let rawdata = fs.readFileSync("./db/db.json");
 
         // converts the raw hex data to JSON Array
         let notesArray = JSON.parse(rawdata);
