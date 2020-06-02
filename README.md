@@ -19,6 +19,7 @@ Create an application that can be used to write, save, and delete notes. This ap
 * [JQuery](https://getbootstrap.com/) - JavaScript library used
 * [Jest](https://jestjs.io/) - JavaScript testing framework used
 * [Express](https://expressjs.com/) - Node Framework used
+* [Heroku](https://www.heroku.com/) - Used to deploy application
 
 ## Assignment Challenges
 ---
