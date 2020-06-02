@@ -1,10 +1,18 @@
-# Homework 11: Note Taker
+# Note Taker
+
+This applications is for users to be able to write and save notes, as well as delete notes they've written before, to recognize their thoughts and keep track of tasks as they need to complete.
+
+## Click [Here](https://kingsleyramos-note-taker.herokuapp.com/) for deployed application.
+---
+![](images/index.gif)
+
+
 
 ## Project Goal
 
 Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
-## Challenges
+## Assignment Challenges
 
 ### Relative Paths
 
