@@ -8,12 +8,20 @@ This applications is for users to be able to write and save notes, as well as de
 
 
 
-## Project Goal
+## Description 
+---
+Create an application that can be used to write, save, and delete notes. This application will use an Express backend and save and retrieve note data from a JSON file via routes. These routes and functions are tested using Jest.
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+
+## Tool & Resources
+---
+* [Bootstrap](https://getbootstrap.com/) - CSS framework used
+* [JQuery](https://getbootstrap.com/) - JavaScript library used
+* [Jest](https://jestjs.io/) - JavaScript testing framework used
+* [Express](https://expressjs.com/) - Node Framework used
 
 ## Assignment Challenges
-
+---
 ### Relative Paths
 
 I started placing files in the incorrect folder such as placing backend js and db files in the public folder. This caused some complex relative paths thus my application was not working properly.
